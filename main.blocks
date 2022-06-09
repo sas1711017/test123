@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="|#ddAe~-2~8}{.mLu.1.">list</variable><variable id="%.qJc-Qiq.L3)ESs2pg]">10</variable></variables><block type="device_forever" id="_N+Pm`Y3L-Qh8N8c9Zr4" x="192" y="-213"><statement name="HANDLER"><block type="serial_writeline" id="e4`A1M:p[ex)y8_{j`Wc"><value name="text"><shadow type="text"><field name="TEXT"/></shadow><block type="sonar_ping" id="GM=SQ8BLN:=Lx0tR;!Uk"><field name="trig">DigitalPin.P1</field><field name="echo">DigitalPin.P2</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="controls_if" id="aiw~s0YnsDy7Qv$}gA{5"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="=uS@.rB2}7m[3oPOlWGW"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="+.5}6)_6;5w%(*Qh^Bpm"><field name="trig">DigitalPin.P1</field><field name="echo">DigitalPin.P2</field><field name="unit">PingUnit.Centimeters</field></block></value><value name="B"><shadow type="math_number" id="#:i#EB%.6g~g]Z1G8epk"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="`TXt}zEz)YYeS.7G)4n2"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="tNl*?}u6f?yOGC37zI(J"><field name="LEDS">`
+        . # # . . 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # # . .
+        `</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="p+*%d13E3WMFw4fj{yVZ" x="-15" y="-140"/></xml>
